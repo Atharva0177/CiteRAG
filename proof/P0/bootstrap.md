@@ -4,7 +4,7 @@ Date: 2026-11-24. Branch: `p0-t01-bootstrap`.
 
 ## Scope and status
 
-Local bootstrap and verification passed. Formal `done` status is pending committed proof and a remote GitHub Actions run; neither commit nor push was authorized in this session.
+Local bootstrap and verification passed. Implementation and proof were committed in `f246a05`; GitHub Actions `offline-ci` run [45382729300](https://github.com/Atharva0177/CiteRAG/actions/runs/45382729300) completed successfully at that commit. Formal completion evidence was recorded after these checks.
 
 ## Toolchain
 

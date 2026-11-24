@@ -22,7 +22,7 @@ Source of truth: [PRD.md](PRD.md) v1.0, 15 Nov 2026. Decision register: [DECISIO
 <a id="p0-t01"></a>
 ### P0-T01 — Bootstrap repository, configuration, and offline CI
 
-- **Status:** `in_review` | **Owner:** Atharva
+- **Status:** `done` | **Owner:** Atharva
 - **PRD:** §5, §11, §12, §15, §18 | **Depends:** none
 - **Decisions:** [D-F02](DECISION.md#d-f02), [D-F10](DECISION.md#d-f10)
 - **Files:** `pyproject.toml`, `package.json` or workspace bootstrap files, `.env.example`, `.gitignore`, `config/`, `apps/`, `packages/`, `proof/`, `.github/workflows/ci.yml`, `tests/fixtures/README.md`

@@ -22,7 +22,7 @@ Both final runs passed:
 
 `.github/workflows/ci.yml` runs on every push and pull request. It installs exact Python/Node versions, runs the same locked bootstrap, then invokes `scripts/check.py`. The workflow references no repository secrets or hosted-provider credentials.
 
-**Remote CI status:** not run. No commit or push was authorized, so this file does not claim a green GitHub Actions job. Local CI-equivalent commands are green; remote workflow execution and committed proof remain required before formal task completion.
+**Remote CI status:** passed. GitHub Actions `offline-ci` run [45382729300](https://github.com/Atharva0177/CiteRAG/actions/runs/45382729300) completed with `status=completed` and `conclusion=success` at commit `f246a05259f7574bf4d7773556899c2f2ee658f1`. The workflow used no hosted-provider credentials.
 
 ## Network-disabled tests
 
