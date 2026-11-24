@@ -1,0 +1,27 @@
+# Credentials and local configuration, including editor backup copies
+.env*
+!.env.example
+
+# Documents, generated storage, and dependencies
+storage/
+node_modules/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+
+# Frontend and test artifacts
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db

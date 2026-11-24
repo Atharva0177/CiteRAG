@@ -1,0 +1,4 @@
+environment: development
+fixtures_only: true
+development_user_id: dev-local
+log_level: INFO
